@@ -13,7 +13,11 @@ const makeListItem = function(label, data){
 
 const makeImgListItem = function(url){
   let listItem = document.createElement("li");
-  listItem.innerHTML = `<img width="500" src=${url}>`;
+  let img = document.createElement("img");
+  img.src = url;
+  // img.width = 500;
+  listItem.appendChild(img);
+  // listItem.innerHTML = `<img width="500" src=${url}>`;
   return listItem;
 }
 

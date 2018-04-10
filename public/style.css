@@ -6,3 +6,11 @@
 .red-quote{
   color: red;
 }
+
+img {
+  width: 500px;
+}
+
+body {
+  background-color: skyblue;
+}
